@@ -10,7 +10,8 @@ function insert_Row() {
   tr.append(td1);
   tr.append(td2);
 
-
   let table = document.getElementById("sampleTable");
   table.prepend(tr);
 }
+
+window.insert_Row = insert_Row;
